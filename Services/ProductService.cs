@@ -55,12 +55,12 @@ namespace ASPNetMVC.LabExercise1.Services
             });
         }
 
-        public List<Product> GetAllProducts()
+        public List<Product> GetCatalog()
         {
             return products;
         }
 
-        public decimal GetGrandTotalPrice()
+        public decimal GetGrandTotal()
         {
             decimal grandTotal = 0;
             foreach(var product in products)
